@@ -1,20 +1,10 @@
-![](https://i.imgur.com/xG74tOh.png)
+# **RESTful API com Token e banco de dados**
 
-# Desafio Módulo 3 - Backend
+## Como abrir?
 
-## Como entregar?
+- [ ] Inicialize com nodemon no terminal
 
-- [ ] Faça o fork desse repositório para o seu GitHub
-- [ ] Clone o seu repositório em sua máquina
-- [ ] Desenvolva seu projeto, fazendo commits a cada alteração e push
-- [ ] Crie um PR (pull request)
-- [ ] Envie o link do pull request que você criou na plataforma da Cubos
-
-### ⚠️ Importante: Se o pull request não for criado e enviado na plataforma o feedback não será fornecido e constará como não entregue
-
-## Descrição do desafio
-
-Seu papel é construir uma RESTful API que permita:
+## Descrição da API
 
 - Cadastrar Usuário
 - Fazer Login
@@ -27,25 +17,8 @@ Seu papel é construir uma RESTful API que permita:
 - Editar transação
 - Remover transação
 - Obter extrato de transações
-- [Extra] Filtrar transações por categoria
 
-**Importante: Lembre-se sempre que cada usuário só pode ver e manipular seus próprios dados e suas próprias transações. Não atender a este pré-requisito é uma falha de segurança gravíssima!**
 
-**Importante 2: O diretório ".github" e seu conteúdo não podem ser alterados e muito menos excluídos**
-
-**Importante 3: Sempre que a validação de uma requisição falhar, responda com código de erro e mensagem adequada à situação, ok?**
-
-**Importante 4: O link de acesso a esta API se encontra no final deste README. Este link é somente para testes!**
-
-**Exemplo:**
-
-```javascript
-// Quando é informado um id de transação que não existe:
-// HTTP Status 404
-{
-    "mensagem": "Transação não encontrada!"
-}
-```
 
 ## **Banco de dados**
 
@@ -766,15 +739,5 @@ Na funcionalidade de listagem de transações do usuário logado (**GET /transac
 // HTTP Status 200 / 201 / 204
 [];
 ```
-
----
-
-Link do deploy da API somente para testes: [ link](https://desafio-backend-03-dindin.pedagogico.cubos.academy/)
-
-**Este link é somente para testes (ou seja, será possível realizar requisições a esta API através deste link)**
-
----
-
-**LEMBRE-SE**: Feito é melhor que perfeito!!!
 
 ###### tags: `back-end` `módulo 3` `nodeJS` `PostgreSQL` `API REST` `desafio`
