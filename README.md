@@ -1,8 +1,11 @@
 # **RESTful API com Token e banco de dados**
 
-## Como abrir?
+## Como iniciar?
 
 - [ ] Inicialize com nodemon no terminal
+- [ ] Crie um usuario no banco de dados
+- [ ] Coloque o token gerado no cadastro do usuario como autenticador Bearer
+- [ ] A porta utilizada no servidor é a 3000 e a do banco de dados é Postgres 5432
 
 ## Descrição da API
 
